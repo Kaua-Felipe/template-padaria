@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 import { Container, NavigationOptions, ContainerLogo } from "./styles"
@@ -10,22 +11,22 @@ const Navigation: React.FC = () => {
             </ContainerLogo>
             <NavigationOptions>
                 <li>
-                    <a href="">Página inicial</a>
+                    <Link href="">Página inicial</Link>
                 </li>
                 <li>
-                    <a href="">Sobre</a>
+                    <Link href="">Sobre</Link>
                 </li>
                 <li>
-                    <a href="">Entre em contato</a>
+                    <Link href="">Entre em contato</Link>
                 </li>
                 <li>
-                    <a href="">Loja</a>
+                    <Link href="">Loja</Link>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <Link href="">Blog</Link>
                 </li>
                 <li>
-                    <a href="">Cardápio</a>
+                    <Link href="">Cardápio</Link>
                 </li>
             </NavigationOptions>
         </Container>
