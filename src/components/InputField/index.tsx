@@ -37,10 +37,6 @@ const InputField: React.FC<InputFieldProps> = ({ label, type, mandatory, placeho
             {!textarea ? component : (
                 <textarea name={label.toLowerCase()} id={label.toLowerCase()} placeholder={placeholder} cols={30} rows={3}></textarea>
             )}
-
-            {
-                console.log(fieldLarge)
-            }
         </Container>
     )
 }
