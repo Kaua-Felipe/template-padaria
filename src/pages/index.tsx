@@ -15,6 +15,8 @@ const Home: NextPage = () => {
         <title>Template Padaria</title>
         <meta name="description" content="Template para uma Padaria" />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="google-site-verification" content="tQYFCK5UYVRzToD9RkHqH_3pdMD085CRMlDVxmIbEnQ" />
       </Head>
 
       <header>
