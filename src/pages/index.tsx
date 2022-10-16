@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Head>
-        <title>Template para uma Padaria, teste para ver a indexação para o SEO da página...</title>
-        <meta name="description" content="Template para uma Padaria, teste para ver a indexação para o SEO da página..." />
+        <title>Template Padaria</title>
+        <meta name="description" content="Template para uma Padaria" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
