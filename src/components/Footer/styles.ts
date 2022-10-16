@@ -7,6 +7,7 @@ export const Container = styled.footer`
     justify-content: space-around;
     padding: 40px 0;
     color: var(--medium-orange);
+    width: 100%;
 
     & > div {
         display: flex;

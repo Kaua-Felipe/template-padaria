@@ -10,7 +10,7 @@ export const Container = styled.nav`
     text-align: center;
 `
 export const ContainerLogo = styled.div`
-    padding: 20px 0;
+    padding: 30px 0;
 
     span {
         font-size: 25px;

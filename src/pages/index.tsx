@@ -6,13 +6,13 @@ import Footer from '../components/Footer'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Container } from '../styles/pages/home'
+import { ContainerHome } from '../styles/pages/home'
 
 const Home: NextPage = () => {
   return (
-    <Container>
+    <ContainerHome>
       <Head>
-        <title>Template Padaria</title>
+        <title>Template Padaria - Home</title>
         <meta name="description" content="Template para uma Padaria" />
         <link rel="icon" href="/favicon.ico" />
 
@@ -21,13 +21,14 @@ const Home: NextPage = () => {
 
       <header>
           <Navigation />
+          <img src="https://soubh.uai.com.br/uploads/post/image/11025/main_momoconfeitaria_deboragabrich-50.jpg" alt="" />
       </header>
       <main>
           <About />
           <Contact />
       </main>
       <Footer />
-    </Container>
+    </ContainerHome>
   )
 }
 

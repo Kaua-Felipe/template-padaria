@@ -11,10 +11,10 @@ const Navigation: React.FC = () => {
             </ContainerLogo>
             <NavigationOptions>
                 <li>
-                    <Link href="">Página inicial</Link>
+                    <Link href="/">Página inicial</Link>
                 </li>
                 <li>
-                    <Link href="">Sobre</Link>
+                    <Link href="/sobre">Sobre</Link>
                 </li>
                 <li>
                     <Link href="">Entre em contato</Link>
