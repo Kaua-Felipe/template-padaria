@@ -26,7 +26,7 @@ const Navigation: React.FC = () => {
                     <Link href="">Blog</Link>
                 </li>
                 <li>
-                    <Link href="">Cardápio</Link>
+                    <Link href="/menus">Menus</Link>
                 </li>
             </NavigationOptions>
         </Container>

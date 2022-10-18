@@ -14,7 +14,6 @@ export const SectionSobre = styled.section`
     align-items: center;
     color: var(--medium-orange);
     height: 600px;
-    /* https://soubh.uai.com.br/uploads/post/image/11025/main_momoconfeitaria_deboragabrich-50.jpg */
     
     .about-content {
         width: calc(50% - 200px);
