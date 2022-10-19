@@ -1,10 +1,10 @@
+import type { NextPage } from 'next'
+import Head from 'next/head'
+
 import Navigation from '../components/Navigation'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-
-import type { NextPage } from 'next'
-import Head from 'next/head'
 
 import { ContainerHome } from '../styles/pages/home'
 

@@ -23,7 +23,7 @@ const Navigation: React.FC = () => {
                     <Link href="">Loja</Link>
                 </li>
                 <li>
-                    <Link href="">Blog</Link>
+                    <Link href="/blog">Blog</Link>
                 </li>
                 <li>
                     <Link href="/menus">Menus</Link>

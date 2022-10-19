@@ -17,5 +17,6 @@ export const GlobalStyle = createGlobalStyle`
       --medium-orange: #BF6D0A;
       --dark-orange: #A63F03;
       --brown: #401201;
+      --orange-opacity: #BF6D0A30;
   }
 `

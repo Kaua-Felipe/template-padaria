@@ -8,6 +8,7 @@ export const Container = styled.footer`
     padding: 40px 0;
     color: var(--medium-orange);
     width: 100%;
+    background-color: var(--white);
 
     & > div {
         display: flex;
