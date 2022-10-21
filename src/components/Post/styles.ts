@@ -2,13 +2,16 @@ import styled from "styled-components"
 
 export const Container = styled.article`
     display: flex;
-    /* padding: 0 240px; */
     margin: 25px 240px;
     color: var(--medium-orange);
     border: 1px solid var(--orange-opacity);
+    transition-duration: .5s;
 
     img {
         width: 50%;
+    }
+    &:hover {
+        box-shadow: 0px 0px 10px var(--light-orange);
     }
 `
 export const Content = styled.div`
@@ -58,6 +61,9 @@ export const ProfileData = styled.div`
             }
         }
     }
+    > svg {
+        cursor: pointer;
+    }
 `
 export const ContentBottom = styled.div`
     border-top: 1px solid var(--orange-opacity);
@@ -68,10 +74,26 @@ export const ContentBottom = styled.div`
     > div {
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 8px;
 
         span {
             font-size: 13px;
         }
+        > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10px;
+
+            > span {
+                display: block;
+                font-weight: bold;
+                font-size: 15px;
+            }
+        }
+    }
+    > svg {
+        color: red;
+        cursor: pointer;
     }
 `

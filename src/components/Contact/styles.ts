@@ -43,4 +43,10 @@ export const Form = styled.form`
             opacity: .7;
         }
     }
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: 15px;
+    }
 `

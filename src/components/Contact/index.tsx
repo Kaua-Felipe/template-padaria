@@ -48,6 +48,7 @@ const Contact: React.FC = () => {
                     />
                     
                     <button type="submit">Enviar</button>
+                    <p>Obrigado(a)!</p>
                 </Form>
             </Container>
         </ContainerContact>

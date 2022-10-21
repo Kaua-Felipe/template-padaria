@@ -10,7 +10,7 @@ const Blog: React.FC = () => {
     return (
         <ContainerBlog>
             <Head>
-                <title>Template Padaria - Home</title>
+                <title>Template Padaria - Blog</title>
                 <meta name="description" content="Sessão da página em que você possa ver os posts sobre determinados assuntos!" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
