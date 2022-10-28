@@ -21,6 +21,7 @@ export const ContainerLogo = styled.div`
 export const NavigationOptions = styled.ul`
     background-color: var(--medium-orange);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 10px 0;
 

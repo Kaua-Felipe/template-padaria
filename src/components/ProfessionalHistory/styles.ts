@@ -10,6 +10,10 @@ export const Container = styled.section`
         font-weight: lighter;
         text-align: center;
         margin-bottom: 15px;
+
+        @media(max-width: 310px) {
+            font-size: 30px;
+        }
     }
     > p {
         text-align: center;
@@ -20,6 +24,7 @@ export const Cards = styled.div`
     margin-top: 50px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;

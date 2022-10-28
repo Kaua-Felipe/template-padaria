@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 
       <header>
           <Navigation />
-          <img src="https://soubh.uai.com.br/uploads/post/image/11025/main_momoconfeitaria_deboragabrich-50.jpg" alt="" />
+          <div />
       </header>
       <main>
           <About />
