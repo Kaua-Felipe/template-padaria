@@ -83,6 +83,5 @@ export const SectionSobre = styled.section`
         flex-direction: column;
         height: calc(400px + 300px);
         justify-content: space-between;
-            background-color: black;
     }
 `
