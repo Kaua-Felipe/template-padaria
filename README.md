@@ -23,7 +23,7 @@
 
 > <h2 id="sobre">📑Sobre</h2>
 
-Este é um template criado a fins de documentar minhas evoluções no desenvolvimento WEB na parte do Front-End de um site, com as seguintes ferramentas: Next, React, Styled-Components, Typescript, Javascript, HTML, CSS e dentre outras e várias tecnologias.
+Este é um template criado a fins de documentar minhas evoluções no desenvolvimento WEB na parte do Front-End de um site, com as seguintes ferramentas: Next, React, Styled-Components, Typescript, Javascript, HTML, CSS e dentre outras e várias tecnologias. Como dito anteriormente é apenas um template, todas as imagens inclusas servem apenas para demonstração.
 
 Link do template: https://template-padaria.netlify.app/
 
