@@ -9,7 +9,7 @@ export const ContainerLoja = styled.div`
         padding-top: 20px;
 
         h1 {
-            margin: 0 215px;
+            text-align: center;
             color: var(--medium-orange);
             font-weight: lighter;
         }
@@ -20,7 +20,11 @@ export const ContainerLoja = styled.div`
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
-            padding: 50px 0 100px 0;
+            padding: 50px 0 100px;
+
+            @media(max-width: 850px) {
+                margin: 0;
+            }
         }
     }
 `

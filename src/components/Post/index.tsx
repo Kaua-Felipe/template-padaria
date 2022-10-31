@@ -3,7 +3,7 @@ import { Container, Content, ContentBottom, ContentTop, ProfileData } from "./st
 const Post: React.FC = () => {
     return (
         <Container>
-            <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24593/movimento-pessoas-padarias-artigos-cursos-cpt.jpg" alt="" />
+            <div className="post-img" />
             <Content>
                 <ContentTop>
                     <ProfileData>

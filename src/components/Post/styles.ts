@@ -7,11 +7,31 @@ export const Container = styled.article`
     border: 1px solid var(--orange-opacity);
     transition-duration: .5s;
 
-    img {
+    .post-img {
         width: 50%;
+        background-image: url("https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia24593/movimento-pessoas-padarias-artigos-cursos-cpt.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        @media(max-width: 800px) {
+            width: 100%;
+            height: 400px;
+        }
+        @media(max-width: 500px) {
+            height: 300px;
+        }
     }
     &:hover {
         box-shadow: 0px 0px 10px var(--light-orange);
+    }
+    @media(max-width: 1270px) {
+        margin: 25px 10%;
+    }
+    @media(max-width: 970px) {
+        margin: 25px 5%;
+    }
+    @media(max-width: 800px) {
+        flex-direction: column;
     }
 `
 export const Content = styled.div`
@@ -21,6 +41,16 @@ export const Content = styled.div`
     flex-direction: column;
     justify-content: space-between;
     gap: 60px;
+
+    @media(max-width: 800px) {
+        width: 90%;
+    }
+    @media(max-width: 500px) {
+        width: 80%;
+    }
+    @media(max-width: 350px) {
+        width: 70%;
+    }
 `
 export const ContentTop = styled.div`
     display: flex;
